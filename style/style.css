@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* Fonte titulo 01  - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Fonte título 02 - "Playwrite IN */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+/* Fonte texto - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variáveis */
+:root {
+    --font-titulo01: "Montserrat", serif;
+    --font-titulo02: "Playwrite IN", serif;
+    --font-texto: "Roboto", serif;
+}
+
+h1 {
+    font-family: var(--font-titulo02);
+}
